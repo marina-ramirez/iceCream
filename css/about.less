@@ -1,0 +1,85 @@
+*{
+  margin: auto;
+}
+.aboutIceCream {
+  height: 100%;
+  width: 100%;
+}
+
+.aboutInfoWrapper {
+  height: 656px;
+  width: 600px;
+  background-color: rgba(69, 136, 195, 0.75);
+  border-radius: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parafoWrap {
+  width: 400px;
+}
+
+.aboutPar1 {
+  width: 400px;
+  padding:-50px;
+  font-size: 30px;
+}
+
+.parafoWrap2 {
+  width: 400px;
+}
+
+.aboutPar2 {
+  width: 400px;
+  padding:-50px;
+  font-size: 30px;
+}
+
+.parafoWrap3 {
+  width: 400px;
+}
+.aboutPar3 {
+  width: 400px;
+  padding:-50px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutPicture {
+    background-image: url("../assets/aboutImage.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 355px;
+    width: 355px;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutIceCream {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .aboutIceCream {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media screen and(min-width: 1080px)
+{
+  .aboutPicture {
+    background-image: url("../assets/aboutImage.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 639px;
+    width: 639px;
+    display: flex;
+    justify-content: center;
+  }
+}

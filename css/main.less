@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+
+html, body{
+  background-color: @background;
+  color: @text;
+  font-size: @mainBody;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navWrapper{
+    position: fixed;
+    top:40px;;
+    right: 0;
+    height: 200px;
+    width: 100px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.header {
+  margin-top: 50px;
+}
+  a{
+    color: white;
+    margin: 0 8px;
+    text-decoration: none;
+  }
+
+  .dropDownMenu {
+    height: 100%;
+    width: 40px;
+    background-color: @squareDropDown;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+  }
+
+  p {
+    font-size: @mainParagraph;
+  }
+  .pic1{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .botonesCntnrOmega{
+    height: 400px;
+    width: 400px;
+    margin-top: 72px;
+  }
+
+  .botonesCntnrBottom{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .botonesCntnrTop{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .botonesDesign{
+    height: 100px;
+    width: 100px;
+    background-color: @background;
+    border: solid 5px @button;
+    border-radius: 20px;
+    a:link, a:visited{
+      text-decoration: none;
+      color: @button;
+    }
+  }
+
+  .botonesTitle{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+
+  .clickButton {
+    height: 64px;
+    width: 192px;
+    font-size: 30pt;
+  }
+  .flexCenter{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    .dropDownMenu {
+      display: none;
+    }
+
+    .navWrapper {
+      height: 100%;
+      position: relative;
+      width: 100%;
+      background-color: transparent;
+      flex-direction: row;
+      top: 0;
+    }
+  }
+@media screen and (min-width: 1080px) {
+.displayWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+}

@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  background-color: lightblue;
+  color: purple;
+  font-size: 20pt;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navWrapper {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  height: 200px;
+  width: 100px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  margin-top: 50px;
+}
+a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.dropDownMenu {
+  height: 100%;
+  width: 40px;
+  background-color: royalblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+p {
+  font-size: 20pt;
+}
+.pic1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.botonesCntnrOmega {
+  height: 400px;
+  width: 400px;
+  margin-top: 72px;
+}
+.botonesCntnrBottom {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.botonesCntnrTop {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.botonesDesign {
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+  border: solid 5px navy;
+  border-radius: 20px;
+}
+.botonesDesign a:link,
+.botonesDesign a:visited {
+  text-decoration: none;
+  color: navy;
+}
+.botonesTitle {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.clickButton {
+  height: 64px;
+  width: 192px;
+  font-size: 30pt;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 600px) {
+  .dropDownMenu {
+    display: none;
+  }
+  .navWrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+    top: 0;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .displayWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.homePage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.thisPage {
+  background-image: url("../assets/homeImage1.jpg");
+  background-size: cover;
+  background-repeat: initial;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+.flexCentered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.centered1 {
+  color: white;
+  position: absolute;
+  font-size: 50pt;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.centered2 {
+  color: whitesmoke;
+  position: absolute;
+  font-size: 45pt;
+  top: 140%;
+  left: 55%;
+  transform: translate(-75%, -75%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.taglineWrap {
+  height: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: auto;
+}
+.aboutIceCream {
+  height: 100%;
+  width: 100%;
+}
+.aboutInfoWrapper {
+  height: 656px;
+  width: 600px;
+  background-color: rgba(69, 136, 195, 0.75);
+  border-radius: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parafoWrap {
+  width: 400px;
+}
+.aboutPar1 {
+  width: 400px;
+  padding: -50px;
+  font-size: 30px;
+}
+.parafoWrap2 {
+  width: 400px;
+}
+.aboutPar2 {
+  width: 400px;
+  padding: -50px;
+  font-size: 30px;
+}
+.parafoWrap3 {
+  width: 400px;
+}
+.aboutPar3 {
+  width: 400px;
+  padding: -50px;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .aboutPicture {
+    background-image: url("../assets/aboutImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 355px;
+    width: 355px;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutIceCream {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 900px) {
+  .aboutIceCream {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .aboutPicture {
+    background-image: url("../assets/aboutImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 639px;
+    width: 639px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.iceCreamDisplay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.displayWrapper {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.product {
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popUp {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .iceCreamDisplay {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .iceCreamDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*# sourceMappingURL=style.css.map */

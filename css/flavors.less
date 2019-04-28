@@ -1,0 +1,63 @@
+//•	JavaScript templating using the JSON file to insert
+// the data in the JSON file to where you believe is
+// appropriate.
+.iceCreamDisplay{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displayWrapper {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product{
+  height:300px;
+  width:300px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.popUp{
+  height:100%;
+  width:100%;
+  background-color: pink;
+  position:absolute;
+  top:0;
+  left:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.product img{
+  height:100%;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .iceCreamDisplay {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .iceCreamDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

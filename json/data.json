@@ -1,0 +1,31 @@
+{
+  "header": "Super Duper Ice Cream Shop",
+  "tagline": "Where Ice Cream Is Super!",
+  "about": "Super Duper Ice Cream is the best ice cream in the world. Founded in 2019, Manthaniel Icereamo wanted ice cream to be super all the time. He uses the same stuff that makes rubber duckies cry to make it taste so good.",
+  "flavors": [
+    {
+      "name": "Cotton Candy",
+      "price": "$5.00",
+      "image": "assets/icecream1.jpg",
+      "details": "If you have not tried cotton candy ice cream, then you should! This ice cream is this month's number 1 favorite."
+    },
+    {
+      "name": "Triple Way Fudge",
+      "price": "$6.00",
+      "image": "assets/icecream2.jpg",
+      "details": "Triple Way Fudge ice cream is a mixture of milk, dark, and white chocolate."
+    },
+    {
+      "name": "Vanilla Bliss",
+      "price": "$4.00",
+      "image": "assets/icecream3.jpg",
+      "details": "Vanilla Bliss ice cream is a blend of french vanilla, plain vanilla, and butterscotch all rolled into one."
+    },
+    {
+      "name": "3 Way Funland",
+      "price": "$1.00",
+      "image": "assets/icecream4.jpg",
+      "details": "3 Way Funland icecream: Reward your taste buds with 3 different classics in just one bite! This ice cream comes with strawberry, chocolate, and vanilla."
+    }
+  ]
+}
